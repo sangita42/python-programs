@@ -1,0 +1,9 @@
+#code
+list1=[10,20,70,30]
+list2=[20,30]
+print(set(list1)-set(list2))
+                
+          
+         
+    
+       
