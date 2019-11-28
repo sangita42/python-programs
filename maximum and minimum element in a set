@@ -1,0 +1,9 @@
+#code
+set={10,45,67,98,66,56}
+print(max(set))
+print(min(set))
+                
+          
+         
+    
+       
