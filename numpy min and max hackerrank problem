@@ -1,0 +1,12 @@
+import numpy
+n,m=map(int,input().split())
+arr=[]
+for i in range(n):
+    result=list(map(int,input().split()))
+    arr.append(result)
+my_array=numpy.array(arr)
+res=numpy.min(my_array,axis=1)
+print(max(res))    
+
+
+
